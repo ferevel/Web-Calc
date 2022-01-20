@@ -1,0 +1,101 @@
+#calc {
+   border: 1px solid black;
+   width: 355px;
+}
+
+.calc-row {
+   /* border: 1px solid red; */
+   height: 60px;
+}
+
+.number-btn {
+   border: 1px solid black;
+   height: 40px;
+   width: 70px;
+   margin: 10px;
+   margin-right: 0px;
+   display: inline-block;
+   font-size: 1.5em;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 5px;
+}
+.point-btn {
+   border: 1px solid black;
+   height: 40px;
+   width: 70px;
+   margin: 10px;
+   margin-right: 0px;
+   display: inline-block;
+   font-size: 1.5em;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 5px;
+}
+.condition-btn {
+   border: 1px solid black;
+   height: 40px;
+   width: 70px;
+   margin: 10px;
+   margin-right: 0px;
+   display: inline-block;
+   font-size: 1.5em;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 5px;
+}
+.sign-btn {
+   border: 1px solid black;
+   height: 40px;
+   width: 70px;
+   margin: 10px;
+   margin-right: 0px;
+   display: inline-block;
+   font-size: 1.5em;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 5px;
+}
+
+#calcButtonResult {
+   display: inline-block;
+   height: 40px;
+   width: 160px;
+   border: 1px solid black;
+   margin: 10px;
+   font-size: 1.5em;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 5px;
+}
+
+#calcButtonClean {
+   display: inline-block;
+   height: 40px;
+   width: 100px;
+   border: 1px solid black;
+   margin: 10px;
+   font-size: 1.5em;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 5px;
+}
+.number-btn:hover,
+#calcButtonClean:hover,
+#calcButtonResult:hover,
+.sign-btn:hover,
+.point-btn:hover,
+.condition-btn:hover
+{
+   cursor: pointer;
+   box-shadow: 0px 0px 10px rgba(0, 255, 55, 0.75);
+}
+
+#display {
+   border-bottom: 1px solid black;
+   font-size: 1.5em;
+   text-align: right;
+   line-height: 40px;
+   padding: 10px;
+   background-color:honeydew;
+}
